@@ -1,8 +1,60 @@
 body{
     display: flex;
-    gap:5px;
-    flex-direction: column;
     justify-content: center;
-    margin: auto 50px;
-    padding:250px;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+    padding: 100px;
+    margin: 100px;
+    align-items: center;
+    
+    
+    
 }
+
+input{
+    align-items: center;
+    outline: 0;
+    border: solid yellow;
+}
+
+
+#email{
+    
+
+    font-size: 10px;
+    border: solid blue 1px;
+ 
+   
+    
+}
+
+.password{
+    width: 47%;
+    position: relative;
+    font-size: 10px;
+    display:inline-flex;
+    align-items: center;
+    z-index: 2;
+   
+ 
+}
+
+#eye{
+    position: absolute;
+    right: 0px;
+    left :147px;
+    top: 25%;
+    width: 50px;
+    z-index: 1;
+    
+
+}
+
+
+
+
+
+
+
+
