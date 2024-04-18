@@ -7,32 +7,30 @@ body{
     padding: 100px;
     margin: 100px;
     align-items: center;
+    background-color: dimgray;
     
     
     
 }
 
 input{
+    font-family: "Arial", sans-serif;
+    border-radius: 25px;
     align-items: center;
     outline: 0;
-    border: solid yellow;
+    border: 0;
+   
 }
 
 
 #email{
-    
-
-    font-size: 10px;
-    border: solid blue 1px;
- 
-   
+    font-size: 5px;
     
 }
 
 .password{
-    width: 47%;
+    width: 46%;
     position: relative;
-    font-size: 10px;
     display:inline-flex;
     align-items: center;
     z-index: 2;
@@ -41,15 +39,32 @@ input{
 }
 
 #eye{
+    font-size: 10px;
     position: absolute;
     right: 0px;
     left :147px;
     top: 25%;
     width: 50px;
     z-index: 1;
-    
 
 }
+
+.quadrado{
+    background-color:grey;
+    border-radius: 25px;
+    
+    padding: 35px;
+    padding-top: 100px;
+    
+}
+
+input::placeholder {
+    font-family: "Arial", sans-serif; /* Define a família de fontes para o placeholder */
+    font-size: 8px; /* Define o tamanho da fonte para o placeholder */
+    font-weight: normal; /* Define o peso da fonte para o placeholder */
+    color: #999; /* Define a cor do texto do placeholder */
+}
+
 
 
 
