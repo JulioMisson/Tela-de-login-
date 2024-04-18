@@ -62,7 +62,7 @@ input::placeholder {
     font-family: "Arial", sans-serif; /* Define a família de fontes para o placeholder */
     font-size: 8px; /* Define o tamanho da fonte para o placeholder */
     font-weight: normal; /* Define o peso da fonte para o placeholder */
-    color: #999; /* Define a cor do texto do placeholder */
+    color: #999; /*Define a cor do texto do placeholder */
 }
 
 
