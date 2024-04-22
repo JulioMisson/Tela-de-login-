@@ -8,6 +8,7 @@ body{
     margin: 100px;
     align-items: center;
     background-color: dimgray;
+    z-index: 4;
     
     
     
@@ -22,23 +23,21 @@ input{
    
 }
 
+input::placeholder {
+    font-family: "Arial", sans-serif; /* Define a família de fontes para o placeholder */
+    font-size: 8px; /* Define o tamanho da fonte para o placeholder */
+    font-weight: normal; /* Define o peso da fonte para o placeholder */
+    color: #999; /*Define a cor do texto do placeholder */
+}
 
-#email{
-    font-size: 5px;
+
+#email {
+    font-family: "Arial", sans-serif;
+    font-size: 8px;
     
 }
 
-.password{
-    width: 46%;
-    position: relative;
-    display:inline-flex;
-    align-items: center;
-    z-index: 2;
-   
- 
-}
-
-#eye{
+#eye {
     font-size: 10px;
     position: absolute;
     right: 0px;
@@ -46,10 +45,18 @@ input{
     top: 25%;
     width: 50px;
     z-index: 1;
+}
+
+.password {
+    width: 46%;
+    position: relative;
+    display:inline-flex;
+    align-items: center;
+    z-index: 2;
 
 }
 
-.quadrado{
+.quadrado {
     background-color:grey;
     border-radius: 25px;
     
@@ -57,13 +64,21 @@ input{
     padding-top: 100px;
     
 }
-
-input::placeholder {
-    font-family: "Arial", sans-serif; /* Define a família de fontes para o placeholder */
-    font-size: 8px; /* Define o tamanho da fonte para o placeholder */
-    font-weight: normal; /* Define o peso da fonte para o placeholder */
-    color: #999; /*Define a cor do texto do placeholder */
+button{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 5px;
+   width: 21%;
+   border: 0;
+   border-radius: 5px;
 }
+button:hover{
+    background-color:#424949;
+}
+
+
+
 
 
 
