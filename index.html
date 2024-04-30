@@ -8,37 +8,33 @@
     </head>
     
     <body>
-        
        
         <div class="quadrado">
             <h3>login</h3>
 
 
-        <div id="email">
-
         <input type="text" name="email" placeholder="exemplo@gmail.com">
 
-        </div>
         <p>
-    
-
 
         <div class="password">
             
-        <input type="password" name="senha" placeholder="senha">
+        <input type="password" name="senha" id="senha" placeholder="senha">
+
         <div id="eye">
-            <ion-icon name="eye-off-outline"></ion-icon>
+
+            <ion-icon name="eye-off-outline" id="olho" onclick="togglePasswordVisibility()"></ion-icon>
+
         </div>
         </div>
+
+
         <br><br>
-
+        
         <button>enviar</button>
+
+
         
-        
-
-       
-
-
        
 
     
@@ -46,6 +42,8 @@
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
         </script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <script src="index.js"></script>
         
     </body>
 </html>
