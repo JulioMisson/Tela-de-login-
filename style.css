@@ -80,7 +80,7 @@ button:hover{
 }
 
 
-@media (min-width: 800px) and (max-width: 1300px) {
+@media (min-width: 800px) and (max-width: 2000px) {
     button {
         margin-left: 6px;
     }
